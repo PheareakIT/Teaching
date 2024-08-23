@@ -4,13 +4,14 @@
     box-sizing: border-box;
 }
 body{
-    background-image:linear-gradient(to right,#ff00d4,#00ddff);
+    background-image:linear-gradient(to right,#23074d,#cc5333);
 }
 
-.menu{
+.menu-bar{
     background: rgba(255,255,255,0.3);
     width: 100%;
     font-family: system-ui;
+    position: relative;
 }
 
 div{
@@ -20,7 +21,7 @@ div{
 .name{
     padding: 7px 20px;
     display: inline-block;
-    background: indigo;
+    background: red;
     color: white;
     border: 1px solid white;
     border-radius: 2px 20px;
@@ -31,7 +32,7 @@ div{
 
 
 .name:hover {
-    background: red;
+    background: green;
     color: white;
     transition: 3s linear;
     transform: rotate(720deg);
@@ -93,6 +94,12 @@ nav ul li:hover ul li a{
     display: block;
 }   
 
+
+.menu{
+    position: absolute;
+    top: 5px;
+    right: 20px;
+}
 
 
 
